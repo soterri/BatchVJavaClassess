@@ -30,6 +30,19 @@ public class Test {
 		dev.artifacts="Sprint Backlog";
 		dev.ceremonies="Sprint Demo, Planning, Retro, Daily Standup";
 		dev.attendScrumMeetings();
+		dev.employeeId=101;
+		//dev.employeeSsn=non accessible bc its private
+		
+		System.out.println("Object of Testing");
+		Tester test=new Tester() ;
+		test.salary=80000;
+		test.work();
+		test.getPaid();
+		test.test();
+		test.artifacts="Sprint planning";
+		test.ceremonies="Sprint demo";
+		
+		}
 	}
 
-}
+
